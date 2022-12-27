@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> Educa </a>
+
+      <nav class="navbar">
+         <div id="close-navbar" class="fas fa-times"></div>
+         <a href="home.html">Inicio</a>
+         <a href="about.html">Sobre</a>
+         <a href="courses.html">Cursos</a>
+         <a href="contact.html">Contato</a>
+      </nav>
+
+      <div class="icons">
+         <div id="account-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+   </header>
+
+   <!-- account form section starts  -->
+
+   <div class="account-form">
+
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+         <span class="btn active login-btn">Entrar</span>
+         <span class="btn register-btn">Cadastrar</span>
+      </div>
+
+      <form class="login-form active" action="">
+         <h3>Entrar agora</h3>
+         <input type="email" placeholder="Email" class="box">
+         <input type="password" placeholder="Senha" class="box">
+         <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Lembrar-me</label>
+            <a href="#">Esqueceu a Senha?</a>
+         </div>
+         <input type="submit" value="Entrar" class="btn">
+      </form>
+
+      <form class="register-form" action="">
+         <h3>Cadastrar agora</h3>
+         <input type="email" placeholder="Digte seu email" class="box">
+         <input type="password" placeholder="Digite uma Senha" class="box">
+         <input type="password" placeholder="Confirme sua senha" class="box">
+         <input type="submit" value="Cadastre-se" class="btn">
+      </form>
+
+   </div>
+
+   <!-- account form section ends -->
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <section class="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>
+                     Os melhores cursos você encontra aqui!</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde,
+                     quidem corrupti?</p>
+                  <a href="#" class="btn">Começar</a>
+               </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>
+                     Os melhores cursos você encontra aqui!</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde,
+                     quidem corrupti?</p>
+                  <a href="#" class="btn">Começar</a>
+               </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>
+                     Os melhores cursos você encontra aqui!</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde,
+                     quidem corrupti?</p>
+                  <a href="#" class="btn">Começar</a>
+               </div>
+            </section>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- home section ends -->
+
+   <!-- subjects section starts  -->
+
+   <section class="subjects">
+
+      <h1 class="heading">Nossos assuntos populares</h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/subject-icon-1.png" alt="">
+            <h3>Designer Grafico</h3>
+            <p>12 Modulos</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-icon-2.png" alt="">
+            <h3>Matemática</h3>
+            <p>12 Modulos</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-icon-3.png" alt="">
+            <h3>Programação</h3>
+            <p>12 Modulos</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-icon-4.png" alt="">
+            <h3>Desenvolvimento</h3>
+            <p>12 Modulos</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-icon-5.png" alt="">
+            <h3>Ciência</h3>
+            <p>12 Modulos</p>
+         </div>
+
+         <div class="box">
+            <img src="images/subject-icon-6.png" alt="">
+            <h3>Engenharia</h3>
+            <p>12 Modulos</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- subjects section ends -->
+
+   <!-- home courses slider section starts  -->
+
+   <section class="home-courses">
+
+      <h1 class="heading"> Nossos cursos populares </h1>
+
+      <div class="swiper home-courses-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-1.png" alt="">
+                  <h3>Desenvolvimento Web</h3>
+               </div>
+               <div class="content">
+                  <h3>Front-End</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">Leia Mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-2.png" alt="">
+                  <h3>Desenvolvimento Web</h3>
+               </div>
+               <div class="content">
+                  <h3>BeckEnd</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">Leia Mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-3.png" alt="">
+                  <h3>Desenvolvimento Web</h3>
+               </div>
+               <div class="content">
+                  <h3>Web Designer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">Leia Mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-4.png" alt="">
+                  <h3>web development</h3>
+               </div>
+               <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-5.png" alt="">
+                  <h3>web development</h3>
+               </div>
+               <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/course-1-6.png" alt="">
+                  <h3>web development</h3>
+               </div>
+               <div class="content">
+                  <h3>web development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                  <a href="#" class="btn">read more</a>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- home courses slider section ends -->
+
+
+
+
+
+
+
+
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3> <i class="fas fa-lightbulb"></i> Educa </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+            <div class="share">
+               <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a>
+            </div>
+         </div>
+
+         <div class="box">
+            <h3>Acesso rapidos</h3>
+            <a href="home.html" class="link">Inicio</a>
+            <a href="about.html" class="link">Sobre</a>
+            <a href="courses.html" class="link">Cursos</a>
+            <a href="contact.html" class="link">Contato</a>
+         </div>
+
+         <div class="box">
+            <h3>links</h3>
+            <a href="#" class="link">suporte</a>
+            <a href="#" class="link">perguntas</a>
+            <a href="#" class="link">feedback</a>
+            <a href="#" class="link">politica de privacidade</a>
+            <a href="#" class="link">termos de uso</a>
+         </div>
+
+         <div class="box">
+            <h3>newsletter</h3>
+            <p>Se inscreva para novidades</p>
+            <form action="">
+               <input type="email" name="" placeholder="Digite seu Email" id="" class="email">
+               <input type="submit" value="Inscreva-se" class="btn">
+            </form>
+         </div>
+
+      </div>
+
+      <div class="credit">Todos direitos reservados</div>
+
+   </section>
+
+   <!-- footer section ends -->
+
+
+
+
+
+
+
+   <!-- swiper js link  -->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
